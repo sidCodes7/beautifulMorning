@@ -54,7 +54,7 @@ def clientReq(row):
 
         print(f"[RETURN] Result: {result}")
     
-    except:
+    except Exception as error:
         print(f"[ERROR]: {error}")
 
 def main():
